@@ -8,7 +8,9 @@
     tools:context=".MainActivity">
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/edtSearch"
+        android:maxLines="1"
         android:hint="Search"/>
     <ListView
         android:layout_width="match_parent"
