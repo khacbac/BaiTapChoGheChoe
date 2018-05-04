@@ -64,4 +64,9 @@ public class RestaurantAdapter extends BaseAdapter {
         TextView txtDiaChi;
         TextView txtDanhGia;
     }
+
+    public void deleteItem(int position) {
+        listRestaurant.remove(position);
+        notifyDataSetChanged();
+    }
 }
